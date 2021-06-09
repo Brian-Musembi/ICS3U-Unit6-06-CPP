@@ -145,7 +145,7 @@ int main() {
     std::cout << "The hexadecimal translation of '" << stringInput << "' is [";
     for (std::string item : newList) {
         if (item == newList.back()) {
-            std::cout << item << "]" << std::endl;
+            std::cout << "'" << item << "']" << std::endl;
         } else {
             std::cout << "'" << item << "', ";
         }
