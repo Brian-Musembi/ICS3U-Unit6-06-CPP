@@ -12,7 +12,7 @@
 
 
 std::list<std::string> hexConvert(std::string userInput) {
-    // Calculates average
+    // Finds each digit from a number
 
     std::map<char, std::string> dictionary;
     std::list<std::string> listOfChar;
